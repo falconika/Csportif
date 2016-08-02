@@ -6,14 +6,15 @@
         <title>Coach Sportif</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-        <script src="js/bootstrap.min.js"></script>
+        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -25,23 +26,59 @@
 
         <header>
 <!-- ***************************************debut navbar***************************************************** -->
-            <nav>
-                <nav class="navbar navbar-light bg-faded">
-                  <div class="nav navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Acceuil <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">à propos</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                    <a class="nav-item nav-link" href="#">Calendrier</a>
-                    <form class="form-inline pull-xs-right">
-                        <button class="btn btn-outline-success" type="submit">S'inscrire</button>
-                      </form>
-                  </div>
-                </nav>
-            </nav>
+        <nav class="navbar navbar-inverse col-xs-12">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header ">
+              <a class="navbar-brand" href="#">
+                      <img alt="Brand" src="...">
+                    </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+              <button type="submit" class="btn btn-default">Inscription</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
 <!-- ***************************************Fin navbar***************************************************** -->
         </header>
 <!-- **************************************Fin du header *****************************************************-->
+<!-- **************************************début de la section  *****************************************************-->
+
         <section>
+<!-- **************************************les 3 images  *****************************************************-->
+
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-xs col-sm-4 col-md-4 col-lg-4">
+                        <figure>
+                            <img src="img/sante.jpg" alt="Image of healty" class="img-rounded img-fluid "  />
+                        </figure>
+
+                    </div>
+
+                    <div class="col-xs col-sm-4 col-md-4 col-lg-4">
+                        <figure>
+                            <img src="img/nutrition.jpg" alt="Image of nutrition" class="img-rounded img-fluid "  />
+                        </figure>
+                    </div>
+                    <div class="col-xs col-sm-4 col-md-4 col-lg-4">
+                        <figure>
+                            <img src="img/musculation.jpg" alt="Image of haltere" class="img-rounded img-fluid "  />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+<!-- **************************************fin image  *****************************************************-->
+
+<hr>
             <div class="row">
                 <div class="col-xs-1 col-sm-4 col-md-4"></div>
 
@@ -56,16 +93,22 @@
             </div>
             <div class="row">
                 <div class="col-xs-1 col-sm-4 col-md-4"></div>
-                <div class="col-xs-1 col-sm-4 col-md-4"><p class="h1">Le cercle vertueux</p></div>
+                <div class="col-xs-1 col-sm-4 col-md-4 text-center"><p class="h1 text-center">Le cercle vertueux</p></div>
                 <div class="col-xs-1 col-sm-4 col-md-4"></div>
 
 
             </div>
 
         </section>
-        <footer>
+<!-- **************************************fin de la section  *****************************************************-->
+<!-- **************************************début du footer  *****************************************************-->
+        <footer class="footer">
+           <div class="container text-center">
+               <small class="copyright">Copyright © karim-khenchoucha.fr 2016</small>
+           </div>
+       </footer>
+  <!-- **************************************fin du footer *****************************************************-->
 
-        </footer>
 
 <!-- ************************************Fin du contenu********************************************************** -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
